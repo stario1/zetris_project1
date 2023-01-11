@@ -10,6 +10,7 @@
                 <div class="nav">
                     <a class="nav-item" href="#/tab">Рейтинг игроков</a>
                     <a class="nav-item" href="@"> FAQ</a>
+                    <a class="nav-item" href="https://github.com/stario1/zetris_project1">GitHub</a>
                 </div>
 
                 <a href="#/lichn"><button class="button">Войти</button></a>

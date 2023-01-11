@@ -5,6 +5,7 @@
 <div class="header-logo">
 	<a href="#/">
 	<img src="./logo.png"></a> 
+    <a class="nav-item" href="https://github.com/stario1/zetris_project1">GitHub</a>
      </div>
 </div>
 <h1 id="/lk" class="lichn-text">Личный кабинет</h1>

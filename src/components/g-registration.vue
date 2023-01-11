@@ -1,8 +1,8 @@
 <template>
     <div class="gRegistration">
-        <div class="registration-text">
-            <h1 id="/reg" class="registration-text-top">Страница регистрации</h1>
-        </div>
+
+            <h1 id="/reg" class="registration-text">Страница регистрации</h1>
+
         <div class="registration">
             <input class="registration-elem" placeholder="Введите никнейм" type="text" />
             <input class="registration-elem" placeholder="Введите e-mail" type="email" />
@@ -39,9 +39,10 @@
     .gRegistation {
         text-align: center;
     }
-    .registration-text-top {
+    .registration-text {
         text-align: center;
         font-size: 70px;
+        color: #000; 
     }
     .registration {
         text-align: center;
@@ -56,10 +57,7 @@
         font-size: 36px;
         padding-left: 30px;
     }
-    .registration-text-middle {
-        font-weight: 700;
-        font-size: 40px; 
-    }
+
     .select-gender {
         width: 1228px;
         height: 100px;

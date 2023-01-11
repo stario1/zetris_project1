@@ -3,7 +3,8 @@
 		<div class="header-line">
 
 <div class="header-logo">
-	<img src="./logo.png">
+	<a href="/tab">
+	<img src="./logo.png"></a> 
 </div>
 
 <div class="nav">
@@ -11,7 +12,7 @@
 	<a class="nav-item" href="@"> FAQ</a>
 </div>
 
-<a href="@"><button class="button">Войти</button></a>
+<a href="#/lichn"><button class="button">Войти</button></a>
 
 
 </div>

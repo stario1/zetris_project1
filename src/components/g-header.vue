@@ -12,7 +12,7 @@
                     <a class="nav-item" href="@"> FAQ</a>
                 </div>
 
-                <a href="@"><button class="button">Войти</button></a>
+                <a href="#/lichn"><button class="button">Войти</button></a>
 
               
             </div>

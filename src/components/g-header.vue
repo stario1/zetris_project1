@@ -1,5 +1,6 @@
 <template>
     <div class="gHeader">
+        <div class="container">
             <div class="header-line">
 
                 <div class="header-logo">
@@ -7,11 +8,11 @@
                 </div>
 
                 <div class="nav">
-                    <a class="nav-item" href="@">Рейтинг игроков</a>
-                    <a class="nav-item" href="@">FAQ</a>
+                    <a class="nav-item" href="#/tab">Рейтинг игроков</a>
+                    <a class="nav-item" href="@"> FAQ</a>
                 </div>
 
-                <a href="#sign"><button class="button">Войти</button></a>
+                <a href="@"><button class="button">Войти</button></a>
 
               
             </div>
@@ -22,20 +23,23 @@
                         <p>Зарегистрируйся и брось вызов игрокам со всего мира!</p> 
                     </div>
                     <div class="btn">
-                        <a href="#registration"><button class="button">Регистрация</button></a>
+                        <a href="#/reg"><button class="button">Регистрация</button></a>
                     </div>
             </div>
 
 
-        
-    </div>
+        </div>
+
+</div>
+<gRegistration/>
 </template>
 
 
 <script>
+import gRegistration from './g-registration.vue';
     export default {
-        name: 'vHeader',   
-        components: {  
+        name: 'gHeader',   
+        components: {gRegistration  
         },
         props: {},
         data() {
@@ -48,17 +52,20 @@
 
 <style>
     .gHeader {
+        display: block;
         background-image: url(bg.jpg);
         height: 100vh;
-        margin:0;
+        width:1920 px;
+        margin: 0;
         background-repeat: no-repeat;
         background-position-y: bottom;
         background-attachment: fixed;
         background-color: #000000;
     }
-
     .header-line {
-        width: 1920px;
+        height: 100px;
+        width: 1830x;
+        margin: 0;
         display: flex;
         align-items: center;
         justify-content: space-around;  
@@ -80,7 +87,7 @@
     .button {
         background-color: #c53d5b;
         color: #fff;
-        margin: 20px;
+        margin:0;
         text-decoration: none;
         padding: 24px 24px;
         font-weight: 700;

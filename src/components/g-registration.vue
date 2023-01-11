@@ -1,7 +1,7 @@
 <template>
     <div class="gRegistration">
         <div class="registration-text">
-            <h1 id="registration" class="registration-text-top">Страница регистрации</h1>
+            <h1 id="/reg" class="registration-text-top">Страница регистрации</h1>
         </div>
         <div class="registration">
             <input class="registration-elem" placeholder="Введите никнейм" type="text" />
@@ -14,7 +14,7 @@
             </select>
 
             <div class="btn">
-                <a href="#"><button class="button">Зарегистрироваться</button></a>
+                <a href="/tab"><button class="button">Зарегистрироваться</button></a>
             </div>
         </div>
     </div>   

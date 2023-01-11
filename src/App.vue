@@ -1,15 +1,12 @@
 <template>
-<g-header/>
-  <g-registration/>
+<router-view></router-view>
 </template>
 
 <script>
-import gHeader from './components/g-header.vue';
-import gRegistration from './components/g-registration.vue';
 
 export default {
   name: 'App',
-  components: {gHeader, gRegistration
+  components: { 
 
   }
 }

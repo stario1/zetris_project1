@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<g-header/>
+  <g-registration/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import gHeader from './components/g-header.vue';
+import gRegistration from './components/g-registration.vue';
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  components: {gHeader, gRegistration
+
   }
 }
 </script>

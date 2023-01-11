@@ -14,7 +14,7 @@
             </select>
 
             <div class="btn">
-                <a href="/tab"><button class="button">Зарегистрироваться</button></a>
+                <a href="#/lichn"><button class="button">Зарегистрироваться</button></a>
             </div>
         </div>
     </div>   

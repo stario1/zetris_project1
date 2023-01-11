@@ -1,5 +1,5 @@
 <template>
-    <div class="gHeader">
+    <div id="/" class="gHeader">
         <div class="container">
             <div class="header-line">
 

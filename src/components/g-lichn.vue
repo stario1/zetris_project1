@@ -3,7 +3,7 @@
 		<div class="header-line">
 
 <div class="header-logo">
-	<a href="/tab">
+	<a href="#/">
 	<img src="./logo.png"></a> 
      </div>
 </div>

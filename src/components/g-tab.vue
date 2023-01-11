@@ -3,7 +3,7 @@
 		<div class="header-line">
 
 <div class="header-logo">
-	<a href="/tab">
+	<a href="#/">
 	<img src="./logo.png"></a> 
 </div>
 
@@ -232,9 +232,7 @@
 </script>
 
 <style>
-.container-tab{
-	background-color: rgb(221, 221, 221);
-}
+
 .gTab{
 	margin-left:35%;
 	font-size: 25px;
